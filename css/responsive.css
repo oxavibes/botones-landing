@@ -4502,3 +4502,9 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width: 767px) {
+    .sticky_logo {
+        margin: 0 auto 0 auto;
+    }
+}

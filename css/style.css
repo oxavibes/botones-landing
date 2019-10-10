@@ -227,6 +227,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #051441;
 }
 
+.p_color {
+  color: #5f54fd;
+}
+
 .w_color {
   color: #fff;
 }
@@ -8178,6 +8182,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .s_pricing-item p {
   color: #677294;
+}
+
+.s_pricing-item .p_color {
+  color: #5f54fd;
 }
 
 .s_pricing-item .price {
@@ -21084,6 +21092,18 @@ a .h_head:hover {
 .section-3 .section_one_img .dots {
   right: -70px;
   bottom: 200px;
+}
+
+.section-3 .see-more {
+  text-decoration: none;
+  outline: none;
+  color: #007bff !important;
+  background-color: transparent;
+}
+
+
+.section-3 .see-more:hover {
+  color: #0056b3 !important;
 }
 
 .section-3.active .pp_features_item {
