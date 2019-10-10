@@ -1079,10 +1079,12 @@
     .pp_contact_info .pp_contact_item{
         padding-right: 0;
     }
-    .section-5 .vertical-centred {
+    .section-5 .vertical-centred,
+    .section-6 .vertical-centred {
         padding-top: 120px;
         padding-bottom: 80px;
     }
+
     .h_analytices_img img,.h_analytices_features_item .h_analytices_img_two img{
         max-width: 100%;
     }

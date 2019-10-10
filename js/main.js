@@ -1168,13 +1168,11 @@
                 // Scrolling UP
                 logo.classList.remove('d-none');
                 logo.classList.remove('d-sm-block');
-                return;
 
             } else {
                 // Scrolling DOWN
                 logo.classList.add('d-none');
                 logo.classList.add('d-sm-block');
-                return;
             }
 
 
