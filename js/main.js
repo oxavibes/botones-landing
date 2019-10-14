@@ -1157,6 +1157,7 @@
         var section_3 = document.querySelector('.section-3');
         var section_4 = document.querySelector('.section-4');
         var section_5 = document.querySelector('.section-5');
+        var section_6 = document.querySelector('.section-6');
 
         var config = {
             attributes: true
@@ -1164,7 +1165,7 @@
 
         var mut = new MutationObserver(function (mutations, mut) {
 
-            if (!section_2.classList.contains('active') && !section_3.classList.contains('active') && !section_4.classList.contains('active') && !section_5.classList.contains('active')) {
+            if (!section_2.classList.contains('active') && !section_3.classList.contains('active') && !section_4.classList.contains('active') && !section_5.classList.contains('active') && !section_6.classList.contains('active')) {
                 // Scrolling UP
                 logo.classList.remove('d-none');
                 logo.classList.remove('d-sm-block');
@@ -1182,6 +1183,7 @@
         mut.observe(section_3, config)
         mut.observe(section_4, config)
         mut.observe(section_5, config)
+        mut.observe(section_6, config)
 
     }());
 
