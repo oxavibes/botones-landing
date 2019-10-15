@@ -12802,6 +12802,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: orangered;
 }
 
+label.error {
+  color: #212529;
+}
+
 /*=============== seo_subscribe_area css ============*/
 .seo_subscribe_area {
   background-color: #5e2ced;
