@@ -303,6 +303,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 20px;
 }
 
+.mb_25 {
+  margin-bottom: 25px;
+}
+
 .mb_15 {
   margin-bottom: 15px;
 }
@@ -21309,6 +21313,35 @@ a .h_head:hover {
   top: 400px;
 }
 
+.section-6 .footer_bottom {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #7f88a6;
+  padding: 27px 0px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-6 .footer_bottom svg {
+  fill: #969db4;
+  height: 19px;
+  position: relative;
+  top: -2px;
+}
+
+
+.section-6 .footer_bottom a:hover {
+  color: #fff;
+}
+
+.section-6 .footer_bottom a svg:hover {
+  fill: #fff;
+}
+
 .pp_contact_info .pp_contact_item {
   padding-right: 100px;
   margin-bottom: 30px;
@@ -22130,6 +22163,7 @@ a .h_head:hover {
 .footer_bottom a:hover {
   color: #6754e2;
 }
+
 
 .f_social_icon_two a {
   font-size: 14px;
