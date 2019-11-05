@@ -1101,11 +1101,11 @@
         if (PSlider.length) {
             PSlider.slick({
                 autoplay: true,
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplaySpeed: 3000,
+                autoplaySpeed: 5000,
                 speed: 1000,
-                vertical: true,
+                vertical: false,
                 dots: false,
                 arrows: true,
                 prevArrow: '.prev',
@@ -1164,7 +1164,6 @@
         };
 
         var mut = new MutationObserver(function (mutations, mut) {
-
             if (!section_2.classList.contains('active') && !section_3.classList.contains('active') && !section_4.classList.contains('active') && !section_5.classList.contains('active') && !section_6.classList.contains('active')) {
                 // Scrolling UP
                 logo.classList.remove('d-none');
@@ -1175,8 +1174,6 @@
                 logo.classList.add('d-none');
                 logo.classList.add('d-sm-block');
             }
-
-
         });
 
         mut.observe(section_2, config);
