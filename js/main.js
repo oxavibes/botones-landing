@@ -842,7 +842,7 @@
 
             if ($('#ctn-preloader').hasClass('loaded')) {
                 // Es para que una vez que se haya ido el preloader se elimine toda la seccion preloader
-                $('#preloader').delay(900).queue(function () {
+                $('#preloader').delay(100).queue(function () {
                     $(this).remove();
                 });
             }
@@ -1128,7 +1128,7 @@
         target: '.pp_features_item p',
 
         // Number of words to initially display (any number). 
-        numOfWords: 27,
+        numOfWords: 25,
 
         // If true, user can toggle between 'read more' and 'read less'. 
         toggle: true,
