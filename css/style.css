@@ -20787,6 +20787,11 @@ a .h_head:hover {
   overflow-x: hidden;
 }
 
+.section-1 {
+  background: rgb(133,83,249);
+  background: linear-gradient(270deg, rgba(133,83,249,1) 0%, rgba(170,165,250,1) 100%);
+}
+
 .section-1 .pp_triangle {
   top: 150px;
   left: 52%;
@@ -20962,6 +20967,11 @@ a .h_head:hover {
 }
 
 /*=========== section-2 css ============*/
+.section-2 {
+  background: rgb(247,183,147);
+  background: radial-gradient(circle, rgba(247,183,147,1) 0%, rgba(224,145,234,1) 100%);
+}
+
 .section-2 .pp_block {
   left: 0;
   right: auto;
@@ -21080,6 +21090,12 @@ a .h_head:hover {
 }
 
 /*=========== section-3 css ============*/
+
+.section-3 {
+  background: rgb(115,192,236);
+  background: linear-gradient(190deg, rgba(115,192,236,1) 0%, rgba(202,75,231,1) 100%);
+}
+
 .section-3 .section_one_img {
   margin-left: 0;
   padding-top: 30px;
@@ -21182,6 +21198,12 @@ a .h_head:hover {
 }
 
 /*============ section-4 css===========*/
+
+.section-4 {
+  background: rgb(85,181,248);
+  background: linear-gradient(211deg, rgba(85,181,248,1) 0%, rgba(159,202,239,1) 30%, rgba(210,123,230,1) 100%);
+}
+
 .section-4 .pp_block {
   right: auto;
   left: 0;
@@ -21306,6 +21328,17 @@ a .h_head:hover {
 }
 
 /*============ section-5 css===========*/
+
+.section-5 {
+  background: rgb(85,181,248);
+  background: linear-gradient(150deg, rgba(85,181,248,1) 0%, rgba(159,202,239,1) 48%, rgba(210,123,230,1) 100%);
+}
+
+.section-6 {
+  background: rgb(102,181,191);
+  background: radial-gradient(circle, rgba(102,181,191,1) 0%, rgba(86,100,199,1) 100%);;
+}
+
 .section-5 .pp_block,
 .section-6 .pp_block {
   left: 0;
