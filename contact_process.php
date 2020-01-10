@@ -11,7 +11,7 @@ require 'vendors/phpmailer/src/SMTP.php';
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-$to = "admin@tubotones.com";
+$to = "soporte@tubotones.com";
 $name = $_REQUEST['name'];
 $from = $_REQUEST['email'];
 $tel = $_REQUEST['tel'];
@@ -26,8 +26,8 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'smtp.zoho.com';                        // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'admin@tubotones.com';               	// SMTP username
-    $mail->Password   = '3%K!4MZ2nqCHECM';                      // SMTP password
+    $mail->Username   = 'soporte@tubotones.com';               	// SMTP username
+    $mail->Password   = 'soportetubotones';                     // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
